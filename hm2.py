@@ -47,7 +47,7 @@ if __name__ == "__main__":
     strings_array = []
     integers_array = []
     
-    file_open_and_convert(os.path.join(os.getcwd(), "data/hundred_k.txt"))
+    file_open_and_convert(os.path.join(os.getcwd(), "data/million.txt"))
 
 
     execution_time1 = timeit.timeit(lambda: insertion_sort(strings_array), number=1)
